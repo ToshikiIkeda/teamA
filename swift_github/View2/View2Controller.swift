@@ -16,7 +16,10 @@ class View2Controller: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func button(_ sender: Any) {
+        view.backgroundColor = UIColor.red
+    }
+    
     /*
     // MARK: - Navigation
 
